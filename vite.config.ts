@@ -41,6 +41,7 @@ function persistAvatarPlugin(): Plugin {
 
 export default defineConfig(() => {
   return {
+    base: '/life_reset_game/',
     plugins: [react(), tailwindcss(), persistAvatarPlugin()],
     resolve: {
       alias: {
